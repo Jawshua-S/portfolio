@@ -1,0 +1,206 @@
+/* RESET & CORE STYLES */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* NAVIGATION HEADER */
+header {
+  background: #fff;
+  border-bottom: 1px solid #eaeaea;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+  margin-left: 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #0066cc;
+}
+
+/* HERO SECTION */
+.hero {
+  padding: 5rem 0;
+  text-align: center;
+  background: linear-gradient(to bottom, #fafafa, #fff);
+}
+
+.hero h2 {
+  font-size: 2.2rem;
+  color: #111;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+}
+
+.btn {
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.btn:hover {
+  background: #0066cc;
+}
+
+/* GLOBAL SECTIONS */
+.section {
+  padding: 4rem 0;
+}
+
+.section.alt {
+  background-color: #f9f9f9;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #111;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.section h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 3px;
+  background-color: #0066cc;
+}
+
+/* SKILLS GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  
+  /* Forces perfect horizontal and vertical centering */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  font-weight: 500;
+  font-size: 0.95rem;
+  min-height: 60px; /* Ensures all boxes stay the exact same height */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+/* CASE STUDY ARCHITECTURE */
+.project h3 {
+  font-size: 1.4rem;
+  color: #111;
+  margin-bottom: 1rem;
+}
+
+.case-study-details p {
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+.case-study-details h4 {
+  font-size: 1.2rem;
+  margin: 2rem 0 1rem 0;
+  color: #111;
+}
+
+.case-study-details ul {
+  padding-left: 1.2rem;
+}
+
+.case-study-details li {
+  margin-bottom: 0.75rem;
+  font-size: 1.02rem;
+}
+
+/* EXPERIENCE SECTION */
+#experience p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+/* CONTACT LIST */
+#contact p {
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  nav a {
+    margin: 0 0.75rem;
+  }
+  .hero h2 {
+    font-size: 1.75rem;
+  }
+}
