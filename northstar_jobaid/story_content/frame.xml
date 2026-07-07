@@ -72,6 +72,7 @@
           <option name="closed_captions" value="true" />
           <option name="settings" value="true" />
           <option name="playbackSpeedControl" value="true" />
+          <option name="fullScreenToggle" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
