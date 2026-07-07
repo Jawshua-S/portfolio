@@ -1,144 +1,3 @@
-
-Claude finished the response
-rise 360 yes, remove the rest i suppose
-
-Got it. And for experience — do you want dates included, or just roles and outcomes?
-
-do what you think is best
-
-
-Viewed a file, ran a command
-Viewed a file, ran a command
-I don't have the HTML file itself — you shared the source code as text in the chat but it wasn't uploaded as a file. Can you upload the actual index.html file directly? Just drag it into the chat and I'll edit it and send it back ready to replace what's on GitHub.
-
-its on github
-
-I can't edit files directly on GitHub from here. But give me the raw GitHub URL to the file and I can fetch it, make all the edits, and give you back a clean file to replace it with.
-
-It'll be something like:
-https://raw.githubusercontent.com/jawshua-s/portfolio/main/index.html
-
-Does that look right or is the repo structured differently?
-
-
-index.html
-131 lines
-
-html
-
-
-Edited 3 files, ran 2 commands, read a file
-Edited 3 files, ran 2 commands, read a file
-Here's what I changed:
-
-Fixed the stray o at the very top of the file that was breaking valid HTML
-Skills — removed Moodle and SCORM/xAPI, replaced with Curriculum Development, Needs Assessment, and AP Style/Chicago Manual of Style. Added "(ADDIE)" to Instructional Design and "360" to Storyline
-Experience — full real history with dates, outcomes, and specifics pulled from your resumes. Retention rate, student count, textbook credit, letter grade improvement — all in there. Education included at the bottom
-Just replace your current index.html on GitHub with this file and it'll update immediately. Upload it directly to your repo and commit.
-
-
-Index
-Code · HTML 
-okay, but did you make it dull looking now?
-
-No — I only touched the content, not the CSS or styling. The visual design is exactly the same as before. The experience section will just look like the rest of the page since I used the same inline styles that were already there.
-
-The one thing worth noting is the experience bullets are plain <ul> list items, so they'll inherit whatever your styles.css already defines for lists. If they look off when you preview it just let me know and I can add matching inline styles.
-
-Go upload it and check how it looks — it should be fine.
-
-i removed the ap style, thats irrelevant
-
-Good call — that's more of a resume detail than a portfolio skill. Makes the skills section cleaner.
-
-Anything else you want adjusted before you upload it?
-
-nope. I took care of it all. so, what is the plan moving forward, finish the portfolio pieces, then apply?
-
-Yes, but don't stop applying entirely while you build. Here's the sequence:
-
-This week:
-
-Convert Northstar to Storyline, get it published and linked on the portfolio
-Add the portfolio link to your resume system so it goes out on every application
-Next couple weeks:
-
-Build the data privacy microlearning module
-Add each piece to the portfolio as it's finished — don't wait until all three are done
-Throughout:
-
-Keep sending maybe 3-5 applications a week on roles that are genuinely strong fits. Not the volume blitz pace, just enough to keep the pipeline moving while the portfolio gets stronger
-Then:
-
-Build the customer service branching simulation last since it's the most complex
-By the time that's done you'll have four solid pieces and a portfolio worth leading with confidently
-The key difference from what you've been doing is leading every application with the portfolio link front and center — in the resume header, in the cover letter opening, everywhere. Right now that link goes to one project. In two weeks it goes to three. That's a meaningfully different thing to send out.
-
-Does that feel manageable or does even 3-5 applications a week feel like too much right now?
-
-thats not a good plan, i will not get a job applying to 3-5 a week
-
-Fair point. The math doesn't work — at 3-5 a week you're barely maintaining visibility in a competitive market.
-
-So let me reframe it:
-
-Finish Northstar first — that's the priority this week. It's the fastest path to a stronger portfolio because the content is already done. Get it built, published, and linked. That should take a few days max.
-
-Then resume full application volume with the portfolio link included. Every application from that point forward goes out with something real to show.
-
-The data privacy module and customer service simulation get built in parallel with applying — evenings, spare time, whenever. You don't need them finished before you start applying again. You add them to the portfolio as they're done and every future application benefits automatically.
-
-So really it's just one week of focused portfolio building, then back to full pace with a better hand to play.
-
-Does that feel more realistic?
-
-Strong portfolio pieces in Storyline are ones that show features you can't do in PowerPoint. The things that impress hiring managers:
-
-Variables and states — content that changes based on learner choices or input
-
-Branching scenarios — meaningful consequences, not just linear next/next/next
-
-A dynamic element — like the satisfaction meter that goes up and down based on answers
-
-Knowledge checks with layered feedback — not just "correct/incorrect" but explanatory feedback that teaches
-
-A trigger-based interaction — something that responds to what the learner does
-
-So the strongest two pieces you could build from scratch are:
-
-Customer service branching simulation with the satisfaction meter — this hits variables, branching, dynamic feedback, and consequences all in one. This is your showpiece.
-Data privacy microlearning — simpler, linear, but clean and professional with a proper knowledge check. Shows you can build a complete polished module.
-Those two built natively in Storyline are more impressive than Northstar converted from PowerPoint ever would be.
-
-As for Northstar — you could still use it as a PDF storyboard or design document on your portfolio. Shows your design thinking without pretending it's a Storyline build. That's actually a legitimate portfolio artifact on its own.
-
-Does that feel like the right direction?
-
-Yes, force push. You're the only one working on this repo so there are no collaborators to worry about. It's safe.
-
-okay now this is what happened. you fucking ruined it:
-
-https://jawshua-s.github.io/portfolio/#projects
-
-
-Fetched: Joshua Silva | Portfolio
-Fetched: Joshua Silva | Portfolio
-It pushed the old version — the experience section still shows the placeholder text and the old skills. The file I sent you didn't make it through the conflict resolution correctly.
-
-Go back to GitHub, click on index.html, hit the pencil edit icon, and paste the content from the file I sent you directly. That's the cleanest way to guarantee the right version goes up.
-
-Do you still have the file I sent you downloaded on your Mac?
-
-
-
-
-
-
-
-Claude is AI and can make mistakes. Please double-check responses.
-
-
-Index · HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -148,9 +7,9 @@ Index · HTML
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
- 
+
 <body>
- 
+
   <header>
     <div class="container nav">
       <h1 class="logo">Joshua Silva</h1>
@@ -163,7 +22,7 @@ Index · HTML
       </nav>
     </div>
   </header>
- 
+
   <section class="hero">
     <div class="container">
       <h2>Instructional Designer • eLearning Developer • Content Writer</h2>
@@ -171,7 +30,7 @@ Index · HTML
       <a class="btn" href="#projects">View My Work</a>
     </div>
   </section>
- 
+
   <section id="about" class="section">
     <div class="container">
       <h2>About Me</h2>
@@ -181,7 +40,7 @@ Index · HTML
       </p>
     </div>
   </section>
- 
+
   <section id="skills" class="section alt">
     <div class="container">
       <h2>Skills</h2>
@@ -199,12 +58,12 @@ Index · HTML
 </div>
     </div>
   </section>
- 
+
  <section id="projects" class="section">
     <div class="container">
       
       <h2 style="margin-bottom: 2rem;">Projects</h2>
- 
+
       <div class="project">
         <h4 style="font-size: 1.2rem; margin-bottom: 1rem; color: #111;">Customer Support Escalation & Decision-Making Job Aid</h4>
         
@@ -228,14 +87,14 @@ Index · HTML
 </ul>
         </div>
       </div>
- 
+
     </div>
   </section>
- 
+
   <section id="experience" class="section alt">
     <div class="container">
       <h2>Experience</h2>
- 
+
       <div style="margin-bottom: 2rem;">
         <p style="margin-bottom: 0.25rem;"><strong>Curriculum Developer & Instructional Coach</strong> — Music Alley</p>
         <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.75rem;">Oct 2022 – Present</p>
@@ -245,7 +104,7 @@ Index · HTML
           <li>Coordinated and produced 3 annual learner showcases, achieving 80% student participation across all skill levels</li>
         </ul>
       </div>
- 
+
       <div style="margin-bottom: 2rem;">
         <p style="margin-bottom: 0.25rem;"><strong>Instructional Content Developer & Copyeditor</strong> — Montoro and Associates (Freelance)</p>
         <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.75rem;">Jan 2012 – Present</p>
@@ -255,7 +114,7 @@ Index · HTML
           <li>Delivered editorial feedback on online courses and instructional materials for multiple clients following AP Style and Chicago Manual of Style</li>
         </ul>
       </div>
- 
+
       <div style="margin-bottom: 2rem;">
         <p style="margin-bottom: 0.25rem;"><strong>Long-Term Substitute Teacher</strong> — Chino Valley Unified School District</p>
         <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.75rem;">Feb 2018 – Jun 2023</p>
@@ -264,7 +123,7 @@ Index · HTML
           <li>Administered Canvas and Google Classroom to distribute content, track assignments, and monitor learner progress</li>
         </ul>
       </div>
- 
+
       <div style="margin-bottom: 2rem;">
         <p style="margin-bottom: 0.25rem;"><strong>Private Tutor & Adult Learning Specialist</strong> — Self-Employed</p>
         <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.75rem;">Sep 2017 – Present</p>
@@ -273,7 +132,7 @@ Index · HTML
           <li>Prepared adult learners for vocational certification exams in math and English, including electrical lineman certification programs</li>
         </ul>
       </div>
- 
+
       <div style="margin-bottom: 2rem;">
         <p style="margin-bottom: 0.25rem;"><strong>Instructional Materials Coordinator</strong> — Hacienda La Puente Unified School District</p>
         <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.75rem;">Jan 2017 – Feb 2018</p>
@@ -282,16 +141,16 @@ Index · HTML
           <li>Conducted stakeholder meetings with after-school program leadership to assess training needs and align on learning goals</li>
         </ul>
       </div>
- 
+
       <div>
         <p style="margin-bottom: 0.25rem;"><strong>Bachelor of Arts in English</strong>, Minor in Radio-TV-Film — California State University, Fullerton</p>
         <p style="color: #666; font-size: 0.9rem;">Graduated Cum Laude</p>
       </div>
- 
+
     </div>
   </section>
- 
- 
+
+
       
     <!-- CONTACT -->
   <section id="contact" class="section" style="padding: 4rem 0;">
@@ -301,21 +160,20 @@ Index · HTML
       <div style="margin-bottom: 2rem;">
         <a class="btn" href="mailto:joshcjsilva@gmail.com" style="padding: 1rem 2rem; font-size: 1.1rem; letter-spacing: 0.5px; display: inline-block;">Contact Me</a>
       </div>
- 
+
       <!-- Center-aligned Clickable LinkedIn Logo -->
       <div class="social-links" style="display: flex; justify-content: center; font-size: 2rem;">
         <a href="https://www.linkedin.com/in/joshua-s-77379b315" target="_blank" rel="noopener noreferrer" style="color: #0077b5;">
           <i class="fab fa-linkedin"></i>
         </a>
       </div>
- 
+
     </div>
   </section>
- 
+
   <footer>
     <p>© 2026 Joshua Silva</p>
   </footer>
- 
+
 </body>
 </html>
- 
